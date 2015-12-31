@@ -1,6 +1,6 @@
 .navbar.navbar-inverse{
 	background: rgba(0,0,0,0.8);
-    border-bottom: 1px solid #585858;
+    /*border-bottom: 1px solid #585858;*/
 }
 .navbar{
 	padding: 10px 0px;
@@ -18,7 +18,6 @@
 	opacity: 1;
 }
 .navbar.navbar-inverse .nav > li.active > a {
-	/*color: #FFFFFF;*/
 	color: #0099FF;
 	opacity: 1;
 	background: none; 
@@ -36,18 +35,18 @@
 	padding: 85px 0px 0px 0px;
 	margin: 0px;
 	min-height: 980px;
-	background: url("../images/5.png") no-repeat center center;
+	background: url("../images/e1.jpg") no-repeat center center;
 	background-size: cover;
 }
 .cover-text{
-	margin-top: 450px;
+	margin-top: 630px;
     text-align: center;
     vertical-align: middle;
     color: #FFF;
     font-size: 40px;
 }
-.pattern-overlay{
-	background: rgba(0,0,0,0.5);
+.cover-overlay{
+	background: rgba(0,0,0,0.6);
 	width: 100%;
 	min-height: 920px;
 	padding: 0px;
@@ -59,16 +58,22 @@
 		padding: 0px;
 	}
  }
+ .content{
+ 	/*background: url(../images/2.png);*/
+ }
 .page-header{
 	text-align: center;
 	/*color: #0099FF;*/
 	color: #5E9516;
 }
+.overlay{
+	background: rgba(0,0,0,0.6);
+}
 .wrapper{
 	text-align: center;
 	font-size: 18px;
 	padding: 10px;
-	color: #707070;
+	color: #505050;
 }
 .year{
 	color: #0099FF;
@@ -81,16 +86,18 @@ a:visited, a:hover, a:active{
 	padding: 10px;
 	text-align: justify;
 }
-.awards{
-	font-size: 16px;
-	color: #707070;
-}
-.awards li{
-	font-size: 18px;
-	color: #6A6A6A;
+#education{
+	background-image: url(../images/5.png);
 }
 #education p{
 	margin: 0px;
+	color: #D3D3D3;
+}
+#projects{
+	background: url(../images/10.jpg);
+/*	background-size:cover;
+  	background-position:center center;
+  	background-attachment:fixed;*/
 }
 #projects .carousel-inner .item{
 	min-height : 300px;
@@ -112,11 +119,18 @@ a:visited, a:hover, a:active{
 	padding: 10px;
 	left: 0;
 	right: 0;
-	bottom: 40px;
+	bottom: 20px;
 }
 #carousel-projects .carousel-caption a{
 	padding: 10px;
-	background: rgba(0,0,0,0.7);
+	background: #005A96;
+	color: #FFFFFF;
+}
+#carousel-projects .carousel-caption a:hover{
+	text-decoration: none;
+}
+#carousel-projects .carousel-inner .item p{
+	color: #B0B0B0;
 }
 #carousel-projects .carousel-inner .item p:last-of-type{
 	padding-bottom: 50px;
@@ -129,18 +143,30 @@ a:visited, a:hover, a:active{
 	padding-left: 20px;
 	bottom: 15px;
 }
-#projects{
-	background-color: #1F1F1F;
-}
 .page-header{
 	border-bottom: none;
 }
-.github-mark{
-	width: 60px;
-	height: 60px;
-	margin: 10px;
+.text-center{
+	text-align: center;
+	color: #333;
 }
-#contact p{
-	margin: 0;
+.text-center a{
+	color: #333;
+}
+.text-center i{
+	padding: 10px;
+}
+.text-center a:hover, a:focus{
 	color: #0099FF;
+	text-decoration: none;
+}
+.parallax{
+	/*height: 300px;*/
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+footer{
+	padding: 40px 0px;
 }
