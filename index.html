@@ -55,11 +55,11 @@
 					<h3>About Me</h3>
 				</div>
 				<div class="wrapper">
-					<p class="desc">My name is Sridhar Somasani. I am a Software Engineer, born in India, working in United States of America. I love to write beautiful code and I believe coding is a way to express your thoughts in a techie style (its an art!). I am an adventurous person, quick learner and I love exploring new things. It is evident from the diversity of technologies on my resume and I learnt all of them by myself(Incase if you are wondering how I did that, I have a magical search box called Google!).
+					<p class="desc">My name is Sridhar Somasani. I am a Software Engineer, born in India, working in United States of America. I love to write beautiful code. I am a quick learner and I love exploring new things. It is evident from the diversity of technologies on my resume and I learnt all of them by myself(Incase if you are wondering how I did that, I have a magical search box called Google!).
 					</p>
 					
 					<p class="desc">
-						I have graduated from University of Louisiana at Lafayette with Master's in Computer Science in Dec 2015. At the moment I work as a Functional Consultant at <a href="http://www.kpit.com/" target="_blank"> KPIT</a> based in Lafayette, LA. 
+						I have graduated from University of Louisiana at Lafayette with Master's in Computer Science in Dec 2015. At the moment I work as a MDM Consultant at <a href="http://www.kpit.com/" target="_blank"> KPIT</a>. 
 					</p>
 
 				</div>
@@ -105,22 +105,26 @@
 				<div class="wrapper clearfix">
 					<div class="col-md-3 year">	Jun 2015 - Present</div>
 					<div class="col-md-8 col-md-offset-1 desc">
-						<div>Functional Consultant</div>
-						<div><a href="http://www.kpit.com/" target="_blank"> KPIT</a>, Lafayette, LA, USA</div> 
+						<div>MDM Consultant</div>
+						<div><a href="http://www.kpit.com/" target="_blank"> KPIT</a>, USA</div> 
 						<div>Associate Consultant at Enquero Inc (Jan 2016 - Jul 2016)</div>
 						<div>Intern at Enquero Inc (Jun 2015 - Dec 2015)</div><br>
-						<p>We are team of 3, developed an end-to-end integration solution to publish medical device data from Oracle Product Hub Cloud to 
+
+						<p>We are team of 5, developed an end-to-end integration solution to publish medical device data from Oracle Product Hub Cloud to 
 						<a href="http://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/UniqueDeviceIdentification/"> FDA Global Unique Device
 						Identification Database</a>. </p>
 						<br>
-						<p>My responsibilities in the team mainly deals with the design and implementation of integration solution in Java, as I have experience
-						in building applications. We customized and deployed open-source AS2 server to integrate with our solution. We used AS2 protocol 
+						<p>My responsibilities in the team mainly deals with the design and implementation of integration solution in Java. We customized and deployed open-source AS2 server to integrate with our solution. We used AS2 protocol 
 						to securely publish medical device data to <a href="http://www.fda.gov/ForIndustry/ElectronicSubmissionsGateway/"> FDA Electronic Submission Gateway</a>. 
 						We parsed XML data from Oracle Product Hub Cloud to transform to HL7 SPL XML format as specified by the <a href="http://www.fda.gov/">FDA</a>. 
 						I also worked on Oracle Enterprise Data Quality for Master Data Management and Oracle Fusion Product Hub.
 						</p>
+
+						<p>As a member of IP solutions team, I develop tools and solutions that will be used by other team members to perform their routine manual tasks. I have developed
+						various python scripts to clean the data from various flat files. I lead a team to build a web scrapper utility to enrich the cleansed data by comparing and augumenting missing data from webscrapped data.</p>
+
 						<br>
-						<p>I am proud to be part of the team. We completed the solution within 6 months and offered it as a service to clients. Interested to learn more? Take a look at
+						<p>I am proud to be part of the team. We completed the UDA solution within 6 months and offered it as a service to clients. Interested to learn more? Take a look at
 						the flyer <a href="https://www.youtube.com/watch?v=QXV6V4FjJmc" target="_blank">here</a> and more details 
 						<a href="http://www.kpit.com/campaign/udi" target="_blank">here.</a></p>
 						<br>
@@ -139,7 +143,7 @@
 						</p>
 						<p>
 							I enjoyed working on the project as I am into game development which is my hobby. I am proud that my hobby actually 
-							helped me to waive my tuition.
+							helped me to waive off my tuition.
 						</p>
 					</div>
 				</div>
@@ -186,10 +190,24 @@
 						<li data-target="#carousel-projects" data-slide-to="0" class="active"></li>
 						<li data-target="#carousel-projects" data-slide-to="1"></li>
 						<li data-target="#carousel-projects" data-slide-to="2"></li>
+						<li data-target="#carousel-projects" data-slide-to="3"></li>
 					</ol>
 
 					<div class="carousel-inner">
 						<div class="item wrapper active">
+							<a href="https://github.com/sridharsomasani/StormAnalytics" target="_blank">Twitter Real-Time Analytics with Apache Storm</a>
+							<p class= "desc">
+							  	This project helps to view top tweets in each country using real time Twitter data. Twitter4j is used to read stream data from Twitter and it is the input to Apache Storm topology.
+
+								Storm parses and maps location information from each tweet to its country and calculates top hashtags from each country. It publishes top tags and tweets to redis pub-sub channel.
+
+								Python flask server is used to bridge data analyzed from Storm to visualize it on d3js Choropleth world map. The d3js world Choropleth map shows top tweets in each country when hovered on particular country.
+							</p>
+							<div class="carousel-caption">
+								<a href="https://github.com/sridharsomasani/StormAnalytics" target="_blank">View on GitHub <img src="images/cat_white.png"></a>
+							</div>
+						</div>
+						<div class="item wrapper">
 							<a href="https://github.com/sridharsomasani/SemanticSearch" target="_blank">Automatic Key Phrase Extraction and Semantic Search</a>
 							<p class= "desc">
 							  Automatic Keyphrase extraction technique helps to index large collection of text documents, categorizes
@@ -264,7 +282,7 @@
 			</div>
 		</section>
 		<footer>
-			<div class="container text-center">All Rights Reserved © 2016</div>
+			<div class="container text-center">All Rights Reserved © 2017</div>
 		</footer>
 	</section>	
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
